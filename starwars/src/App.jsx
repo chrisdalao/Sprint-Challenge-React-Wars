@@ -20,21 +20,23 @@ class App extends Component {
   prevPage = () => {
     debugger
     this.getCharacters(
-      `https://swapi.co/api/people/?page=${this.state.prevPage}`
+      `https://swapi.co/api/people/?page=${this.state.nextPage}`
     );
     this.setState(prevState => {
-      return ( prevState.prevPage -= 1 );
+      return ( prevState.nextPage -= 1 );
     });
     debugger
   };
 
   nextPage = () => {
+    debugger
     this.getCharacters(
       `https://swapi.co/api/people/?page=${this.state.nextPage}`
     );
     this.setState(prevState => {
       return (prevState.nextPage += 1);
     });
+    debugger
   };
 
   getCharacters = URL => {
