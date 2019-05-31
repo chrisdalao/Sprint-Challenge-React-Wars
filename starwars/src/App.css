@@ -1,8 +1,21 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-flow: row;
 }
 .Header {
   color: #443e3e;
   text-shadow: 1px 1px 5px #fff;
 }
 /* write your parent styles in here for your App.js */
+
+
+.next-button{
+  margin-top: 40px;
+    font-size: 1.3rem;
+    padding: 10px 30px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    outline: none;
+}

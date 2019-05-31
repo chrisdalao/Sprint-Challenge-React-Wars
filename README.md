@@ -26,32 +26,40 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
+React JS is a JS framework built by Facebook engineers. It definitely brings a solution to bringing dynamic qualities to an application - it solves scalability by using Components and classes which also brings flexibility to applications. All the parts or segments of code are separated and it's very readable - you know exactly where to write your functions - you know where to manipulate your data - you know exactly where the data goes and how it trickles down in breadcrumbs. 
+
 - [ ] What does it mean to _think_ in react?
+
+it means to think progressively and in segements - somehwat incermentally think about the build. You can nearly build as you think it through. 
 
 - [ ] Describe state.
 
+state can be described as the current state of the application in terms of its data. state holds the data of an application. you can argue that a real life object's current state is determined form its data - if a person is in a state of anxiety, one can determine that by looking at the data they collect or observe. 
+
 - [ ] Describe props.
+
+props are basically the porperties of an object - however in react they're more of a reference point for the function Components to refer back to its parent class - even as reference points, props are keys for components to gain access to data they need to manipulate.
 
 ## Project Set Up
 
 Follow these steps to set up and work on your project:
 
-- [ ] Create a forked copy of this project.
-- [ ] Add PM as collaborator on Github.
-- [ ] Clone your OWN version of Repo (Not Lambda's by mistake!)
-- [ ] Create a new Branch on the clone: git checkout -b `<firstName-lastName>`.
-- [ ] Change directories into `./starwars` (`cd starwars`) and run `yarn install` to retrieve all needed dependencies.
-- [ ] Once you have installed the _node_modules_, run `yarn start or` to get your server up and running.
-- [ ] With the server up and running, open Chrome and head over to `localhost:3000` and view your beautiful app. Maybe it's not _that_ pretty... _yet_, your goal is to ensure this project becomes a thing of beauty.
+- [x] Create a forked copy of this project.
+- [x] Add PM as collaborator on Github.
+- [x] Clone your OWN version of Repo (Not Lambda's by mistake!)
+- [x] Create a new Branch on the clone: git checkout -b `<firstName-lastName>`.
+- [x] Change directories into `./starwars` (`cd starwars`) and run `yarn install` to retrieve all needed dependencies.
+- [x] Once you have installed the _node_modules_, run `yarn start or` to get your server up and running.
+- [x] With the server up and running, open Chrome and head over to `localhost:3000` and view your beautiful app. Maybe it's not _that_ pretty... _yet_, your goal is to ensure this project becomes a thing of beauty.
 Follow these steps for completing your project.
-- [ ] Implement the project on this Branch, committing changes regularly.
-- [ ] Push commits: git push origin `<firstName-lastName>`.
+- [x] Implement the project on this Branch, committing changes regularly.
+- [x] Push commits: git push origin `<firstName-lastName>`.
 
 Follow these steps for completing your project:
 
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo).
-- [ ] Add your Project Manager as a Reviewer on the Pull-request.
-- [ ] PM then will count the HW as done by  merging the branch back into master.
+- [x] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo).
+- [x] Add your Project Manager as a Reviewer on the Pull-request.
+- [x] PM then will count the HW as done by  merging the branch back into master.
 
 Please note:
 
